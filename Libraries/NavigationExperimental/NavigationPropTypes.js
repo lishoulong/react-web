@@ -22,7 +22,7 @@ import type  {
  * type check errors at build time.
  */
 
-const Animated = require('Animated');
+import Animated from 'ReactAnimated';
 const React = require('React');
 
 const {PropTypes} = React;

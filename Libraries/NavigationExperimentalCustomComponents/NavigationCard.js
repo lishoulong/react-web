@@ -32,7 +32,7 @@
  */
 'use strict';
 
-const Animated = require('Animated');
+import Animated from 'ReactAnimated';
 const NavigationCardStackPanResponder = require('NavigationCardStackPanResponder');
 const NavigationCardStackStyleInterpolator = require('NavigationCardStackStyleInterpolator');
 const NavigationPagerPanResponder = require('NavigationPagerPanResponder');
@@ -41,8 +41,8 @@ const NavigationPointerEventsContainer = require('NavigationPointerEventsContain
 const NavigationPropTypes = require('NavigationPropTypes');
 const React = require('React');
 const ReactComponentWithPureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
-const StyleSheet = require('StyleSheet');
-const View = require('View');
+import StyleSheet from 'ReactStyleSheet';
+import View from 'ReactView';
 
 import type  {
   NavigationPanPanHandlers,

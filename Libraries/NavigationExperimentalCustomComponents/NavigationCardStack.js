@@ -39,8 +39,8 @@ const NavigationCardStackPanResponder = require('NavigationCardStackPanResponder
 const NavigationPropTypes = require('NavigationPropTypes');
 const React = require('React');
 const ReactComponentWithPureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
-const StyleSheet = require('StyleSheet');
-const View = require('View');
+import StyleSheet from 'ReactStyleSheet';
+import View from 'ReactView';
 
 const {PropTypes} = React;
 const {Directions} = NavigationCardStackPanResponder;

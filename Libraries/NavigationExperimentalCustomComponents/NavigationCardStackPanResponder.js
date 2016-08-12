@@ -12,7 +12,7 @@
  */
 'use strict';
 
-const Animated = require('Animated');
+import Animated from 'ReactAnimated';
 const NavigationAbstractPanResponder = require('NavigationAbstractPanResponder');
 
 const clamp = require('clamp');

@@ -33,14 +33,10 @@
 'use strict';
 
 const React = require('react');
-const ReactNative = require('react-native');
-
-const {
-  Platform,
-  StyleSheet,
-  View,
-  Text,
-} = ReactNative;
+import Platform from 'ReactPlatform';
+import StyleSheet from 'ReactStyleSheet';
+import View from 'ReactView';
+import Text from 'ReactText';
 
 type Props = {
   children: ReactElement<any>;

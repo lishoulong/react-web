@@ -11,7 +11,7 @@
 
 'use strict';
 
-const InteractionManager = require('./InteractionManager');
+const InteractionManager = require('./InteractionManager.web');
 const TouchHistoryMath = require('react/lib/TouchHistoryMath');
 
 const currentCentroidXOfTouchesChangedAfter = TouchHistoryMath.currentCentroidXOfTouchesChangedAfter;

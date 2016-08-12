@@ -66,6 +66,7 @@ export NativeModules from 'ReactNativeModules';
 export Platform from 'ReactPlatform';
 export processColor from 'ReactProcessColor';
 
+export NavigationExperimental from 'NavigationExperimental';
 
 // Match the react-native export signature, which uses CommonJS
 // (not ES6), where this works:

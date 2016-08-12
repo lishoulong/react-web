@@ -11,13 +11,13 @@
  */
 'use strict';
 
-const Animated = require('Animated');
-const Easing = require('Easing');
+import Animated from 'ReactAnimated';
+const Easing = require('animated/lib/Easing');
 const NavigationPropTypes = require('NavigationPropTypes');
 const NavigationScenesReducer = require('NavigationScenesReducer');
 const React = require('React');
-const StyleSheet = require('StyleSheet');
-const View = require('View');
+import StyleSheet from 'ReactStyleSheet';
+import View from 'ReactView';
 
 import type {
   NavigationAnimatedValue,

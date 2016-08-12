@@ -16,7 +16,7 @@ type I18nManagerStatus = {
   allowRTL: (allowRTL: boolean) => {},
 };
 
-const I18nManager : I18nManagerStatus = require('NativeModules').I18nManager || {
+const I18nManager : I18nManagerStatus = {
   isRTL: false,
   allowRTL: () => {},
 };

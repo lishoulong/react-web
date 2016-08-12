@@ -11,7 +11,7 @@
  */
 'use strict';
 
-const Animated = require('Animated');
+import Animated from 'ReactAnimated';
 
 // Object Instances
 

@@ -12,7 +12,7 @@
  */
 'use strict';
 
-const Animated = require('Animated');
+import Animated from 'ReactAnimated';
 const NavigationAbstractPanResponder = require('NavigationAbstractPanResponder');
 const NavigationCardStackPanResponder = require('NavigationCardStackPanResponder');
 const I18nManager = require('I18nManager');

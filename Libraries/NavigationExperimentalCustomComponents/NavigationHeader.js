@@ -33,19 +33,15 @@
 'use strict';
 
 const React = require('React');
-const ReactNative = require('react-native');
+import Animated from 'ReactAnimated';
+import Platform from 'ReactPlatform';
+import StyleSheet from 'ReactStyleSheet';
+import View from 'ReactView';
 const NavigationHeaderTitle = require('NavigationHeaderTitle');
 const NavigationHeaderBackButton = require('NavigationHeaderBackButton');
 const NavigationPropTypes = require('NavigationPropTypes');
 const NavigationHeaderStyleInterpolator = require('NavigationHeaderStyleInterpolator');
 const ReactComponentWithPureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
-
-const {
-  Animated,
-  Platform,
-  StyleSheet,
-  View,
-} = ReactNative;
 
 import type  {
   NavigationSceneRendererProps,

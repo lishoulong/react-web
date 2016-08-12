@@ -24,14 +24,10 @@
 'use strict';
 
 const React = require('react');
-const ReactNative = require('react-native');
-
-const {
-  Image,
-  Platform,
-  StyleSheet,
-  TouchableOpacity,
-} = ReactNative;
+import Image from 'ReactImage';
+import Platform from 'ReactPlatform';
+import StyleSheet from 'ReactStyleSheet';
+import TouchableOpacity from 'ReactTouchableOpacity';
 
 type Props = {
   onPress: Function,
