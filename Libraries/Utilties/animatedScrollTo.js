@@ -1,7 +1,7 @@
 // Modified from https://github.com/madebysource/animated-scrollto/blob/master/animatedScrollTo.js
 
-(function (window) {
-    var requestAnimFrame = (function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||function(callback){window.setTimeout(callback,1000/60);};})();
+(function(window) {
+    var requestAnimFrame = (function() {return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function(callback) {window.setTimeout(callback, 1000/60);};})();
 
     var easeInOutQuad = function (t, b, c, d) {
         t /= d/2;

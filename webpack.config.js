@@ -75,11 +75,6 @@ if (NODE_ENV === 'development') {
       new HtmlPlugin(),
     ],
     module: {
-      preLoaders: [{
-        test: /\.jsx?$/,
-        loaders: ['eslint'],
-        include: [config.paths.demo, config.paths.src],
-      }],
       loaders: [{
         test: /\.jsx?$/,
         loader: 'react-hot',

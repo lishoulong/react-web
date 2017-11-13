@@ -26,7 +26,7 @@ var TextInputState = {
     if (!focused || focused == document.body) {
       return null;
     } else if (document.querySelector) {
-      focused = document.querySelector(":focus");
+      focused = document.querySelector(':focus');
     }
 
     if (!focused) {

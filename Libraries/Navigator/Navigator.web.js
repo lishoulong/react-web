@@ -1050,7 +1050,7 @@ class Navigator extends Component {
   _captureSceneRef(index) {
     return ref => {
       this._sceneRefs[index] = ref;
-    }
+    };
   }
 
   _cleanScenesPastIndex(index) {
